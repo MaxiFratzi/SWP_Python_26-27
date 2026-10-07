@@ -16,6 +16,9 @@ def lottoziehung():
         gezogeneZahlen.append(zahlenpool[x])
         stats[zahlenpool[x]] += 1
         zahlenpool[x] = zahlenpool[44-i]
+        zahlenpool[44-i] = gezogeneZahlen[i]
+
+
     
 
 if __name__ == "__main__":
