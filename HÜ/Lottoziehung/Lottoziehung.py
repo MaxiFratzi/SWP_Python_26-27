@@ -19,8 +19,6 @@ def lottoziehung():
         zahlenpool[44-i] = gezogeneZahlen[i]
 
 
-    
-
 if __name__ == "__main__":
     init()
     anzahlZiehungen = int(input("Wie viele Lottoziehungen?"))
